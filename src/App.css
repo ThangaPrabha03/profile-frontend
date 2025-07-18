@@ -51,10 +51,15 @@ nav {
 }
 
 /* Main content should take all space between header and footer */
+main {
+  flex: 1;
+  overflow-y: auto;
+}
 .main-content {
   flex: 1;
   overflow-y: auto;
 }
+
 
 /* About Section Layout */
 .about-section {
@@ -63,12 +68,12 @@ nav {
   align-items: flex-start;
   gap: 30px;
   padding: 40px 60px;
-  width: 100vw;
-  height: calc(100vh - 80px); /* Adjust based on header height */
+  width: 100%;
   background-color: #ffffff;
   box-sizing: border-box;
-  overflow: hidden;
+  flex-wrap: wrap; /* ✅ Better for responsiveness */
 }
+
 
 /* Column widths */
 .about-left {
