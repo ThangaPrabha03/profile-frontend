@@ -46,7 +46,7 @@ To obtain a challenging position in a reputable organization where I can enhance
 
   {/* CENTER: Image */}
   <div className="about-image">
-    <img src="src/assets/image1.jpg" alt="Thanga Prabha" />
+    <img src="/image1.jpg" alt="Thanga Prabha" />
   </div>
 
   {/* RIGHT: Skills */}
