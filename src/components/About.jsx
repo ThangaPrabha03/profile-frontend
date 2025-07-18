@@ -1,5 +1,6 @@
 import React from 'react';
 import "../App.css";
+import image1 from '../assets/image1.jpg';
  
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
@@ -46,7 +47,7 @@ To obtain a challenging position in a reputable organization where I can enhance
 
   {/* CENTER: Image */}
   <div className="about-image">
-    <img src="/image1.jpg" alt="Thanga Prabha" />
+    <img src={image1} alt="Thanga Prabha" />
   </div>
 
   {/* RIGHT: Skills */}
