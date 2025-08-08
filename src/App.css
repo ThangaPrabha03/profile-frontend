@@ -1,4 +1,3 @@
-/* General Reset */
 html, body, #root {
   margin: 0;
   padding: 0;
@@ -8,14 +7,14 @@ html, body, #root {
   color: #333;
 }
 
-/* Layout Wrapper */
+
 .app-container {
   display: flex;
   flex-direction: column;
-  height: 100vh; /* FULL SCREEN */
+  height: 100vh; 
 }
 
-/* Header Styling */
+
 header {
   background-color: #6a1b9a;
   padding: 20px 0;
@@ -50,7 +49,7 @@ nav {
   transform: scale(1.1);
 }
 
-/* Main content should take all space between header and footer */
+
 main {
   flex: 1;
   overflow-y: auto;
@@ -61,7 +60,7 @@ main {
 }
 
 
-/* About Section Layout */
+
 .about-section {
   display: flex;
   justify-content: space-between;
@@ -71,11 +70,10 @@ main {
   width: 100%;
   background-color: #ffffff;
   box-sizing: border-box;
-  flex-wrap: wrap; /* ✅ Better for responsiveness */
+  flex-wrap: wrap; 
 }
 
 
-/* Column widths */
 .about-left {
   flex: 2;
   padding-right: 20px;
@@ -91,7 +89,7 @@ main {
   flex: 1;
 }
 
-/* About Text */
+
 .about-left h1 {
   font-size: 42px;
   color: #6a1b9a;
@@ -123,7 +121,6 @@ main {
   font-size: 16px;
 }
 
-/* Center Image */
 .about-center img {
   width: 100%;
   max-width: 220px;
@@ -132,7 +129,6 @@ main {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
-/* Skills Section */
 .about-right .skill-list {
   background-color: #f3e5f5;
   padding: 20px;
@@ -146,8 +142,8 @@ main {
   font-size: 22px;
 }
 .profile-img {
-  width: 200px;  /* Increase size */
-  height: 200px; /* Adjust height to keep proportions */
+  width: 200px;  
+  height: 200px; 
   border-radius: 10px;
   object-fit: cover;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -172,7 +168,7 @@ main {
   transform: scale(1.05);
 }
 
-/* Responsive Design */
+
 @media (max-width: 992px) {
   .about-section {
     flex-direction: column;
@@ -200,7 +196,7 @@ main {
   }
 }
 
-/* Footer */
+
 footer {
   text-align: center;
   padding: 20px;
@@ -223,14 +219,13 @@ body {
   padding: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: linear-gradient(to right, #e0f7fa, #e1f5fe);
-  overflow-x: hidden; /* Prevents horizontal scrollbar */
+  overflow-x: hidden; 
 }
 
-/* Project Section */
 .project-section {
   padding: 60px 20px;
   min-height: 100vh;
-  width: 100vw; /* Ensures full screen width */
+  width: 100vw; 
   background: linear-gradient(to right, #f1faff, #d0f0f8);
   box-sizing: border-box;
 }
@@ -250,7 +245,6 @@ body {
   margin: 0 auto 40px;
 }
 
-/* Project Container */
 .container {
   max-width: 900px;
   margin: 0 auto;
@@ -260,7 +254,6 @@ body {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
 }
 
-/* Each Project */
 .container h3 {
   font-size: 1.6rem;
   color: #6a1b9a;
@@ -275,12 +268,12 @@ body {
   text-align: justify;
 }
 
-/* Hover effect */
+
 .container h3:hover {
   color: #8e24aa;
   cursor: default;
 }
-/* === FULL SCREEN CONTAINER === */
+
 html, body {
   margin: 0;
   padding: 0;
@@ -304,13 +297,12 @@ html, body {
   box-sizing: border-box;
 }
 
-/* === CENTERED CONTENT WRAPPER === */
 .contact-content-wrapper {
   width: 100%;
   max-width: 800px;
 }
 
-/* === HEADINGS & LINKS === */
+
 .contact-heading {
   text-align: center;
   font-size: 32px;
@@ -341,7 +333,7 @@ html, body {
   background: #b2dfdb;
 }
 
-/* === FORM STYLING === */
+
 .contact-form {
   width: 100%;
   max-width: 600px;

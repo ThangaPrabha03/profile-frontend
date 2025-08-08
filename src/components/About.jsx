@@ -27,7 +27,6 @@ const About = () => {
 
       <main>
         <section className="about-section">
-  {/* LEFT: About Content */}
   <div className="about-left">
     <h1>THANGA PRABHA B</h1>
     <br />
@@ -45,12 +44,12 @@ To obtain a challenging position in a reputable organization where I can enhance
     </ul>
   </div>
 
-  {/* CENTER: Image */}
+
   <div className="about-image">
     <img src={image1} alt="Thanga Prabha" />
   </div>
 
-  {/* RIGHT: Skills */}
+
  <div className="about-right">
   <div className="skill-list">
     <h3>Skills</h3>
