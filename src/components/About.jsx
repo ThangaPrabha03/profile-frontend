@@ -58,14 +58,6 @@ To obtain a challenging position in a reputable organization where I can enhance
       <div className="skill-item"><FontAwesomeIcon icon={faCss3Alt} /> CSS</div>
       <div className="skill-item"><FontAwesomeIcon icon={faJs} /> JavaScript</div>
       <div className="skill-item"><FontAwesomeIcon icon={faBootstrap} /> Bootstrap</div>
-      <div className="skill-item"><FontAwesomeIcon icon={faReact} /> React</div>
-      <div className="skill-item"><FontAwesomeIcon icon={faNodeJs} /> Node.js</div>
-      <div className="skill-item"><FontAwesomeIcon icon={faJs} /> Express.js</div>
-      <div className="skill-item"><FontAwesomeIcon icon={faDatabase} /> MongoDB</div>
-      <div className="skill-item"><FontAwesomeIcon icon={faGitAlt} /> Git</div>
-      <div className="skill-item"><FontAwesomeIcon icon={faGithub} /> GitHub</div>
-      <div className="skill-item"><FontAwesomeIcon icon={faCloud} /> Render</div>
-      <div className="skill-item"><FontAwesomeIcon icon={faServer} /> Vercel</div>
       <div className="skill-item"><FontAwesomeIcon icon={faPhp} /> PHP</div>
       <div className="skill-item"><FontAwesomeIcon icon={faDatabase} /> MySQL</div>
       <div className="skill-item"><FontAwesomeIcon icon={faPython} /> Python</div>
