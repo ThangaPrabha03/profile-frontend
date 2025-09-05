@@ -1,13 +1,15 @@
 import React from 'react';
 import "../App.css";
 import image1 from '../assets/image1.jpg';
- 
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faDatabase,
   faComments,
   faUserTie,
-  faClock
+  faClock,
+  faCloud,
+  faServer
 } from '@fortawesome/free-solid-svg-icons';
 import {
   faHtml5,
@@ -18,59 +20,65 @@ import {
   faPython,
   faJava,
   faLinkedin,
-  faGithub
+  faGithub,
+  faReact,
+  faNodeJs,
+  faGitAlt
 } from '@fortawesome/free-brands-svg-icons';
 
 const About = () => {
   return (
     <div>
-
       <main>
         <section className="about-section">
-  <div className="about-left">
-    <h1>THANGA PRABHA B</h1>
-    <br />
-    <h4>
-      An enthusiastic and motivated student with a passion for learning and a drive for academic excellence.
-To obtain a challenging position in a reputable organization where I can enhance my skills, contribute to the growth of the company, and build a long-term career using my knowledge in software development and problem-solving.
-    </h4>
-    <br />
+          <div className="about-left">
+            <h1>THANGA PRABHA B</h1>
+            <br />
+            <h4>
+              An enthusiastic and motivated student with a passion for learning and a drive for academic excellence.
+              To obtain a challenging position in a reputable organization where I can enhance my skills, contribute to the growth of the company, and build a long-term career using my knowledge in software development and problem-solving.
+            </h4>
+            <br />
 
-    <h3>Education Details</h3><br />
-    <ul>
-      <li><strong>B.E. Computer Science</strong><br />University College of Engineering Nagercoil<br />Currently in 6th semester, CGPA: 8.33</li>
-      <li><strong>HSC</strong><br />CAMBRIDGE MHS - AGASTHIYARPATTI - 86.7%</li><br />
-      <li><strong>SSLC</strong><br />VIKAASA SCHOOL AMBASAMUDRAM - 73.7%</li><br />
-    </ul>
-  </div>
+            <h3>Education Details</h3><br />
+            <ul>
+              <li><strong>B.E. Computer Science</strong><br />University College of Engineering Nagercoil<br />Currently in 6th semester, CGPA: 8.33</li>
+              <li><strong>HSC</strong><br />CAMBRIDGE MHS - AGASTHIYARPATTI - 86.7%</li><br />
+              <li><strong>SSLC</strong><br />VIKAASA SCHOOL AMBASAMUDRAM - 73.7%</li><br />
+            </ul>
+          </div>
 
+          <div className="about-image">
+            <img src={image1} alt="Thanga Prabha" />
+          </div>
 
-  <div className="about-image">
-    <img src={image1} alt="Thanga Prabha" />
-  </div>
-
-
- <div className="about-right">
-  <div className="skill-list">
-    <h3>Skills</h3>
-    <div className="skill-grid">
-      <div className="skill-item"><FontAwesomeIcon icon={faHtml5} /> HTML</div>
-      <div className="skill-item"><FontAwesomeIcon icon={faCss3Alt} /> CSS</div>
-      <div className="skill-item"><FontAwesomeIcon icon={faJs} /> JavaScript</div>
-      <div className="skill-item"><FontAwesomeIcon icon={faBootstrap} /> Bootstrap</div>
-      <div className="skill-item"><FontAwesomeIcon icon={faPhp} /> PHP</div>
-      <div className="skill-item"><FontAwesomeIcon icon={faDatabase} /> MySQL</div>
-      <div className="skill-item"><FontAwesomeIcon icon={faPython} /> Python</div>
-      <div className="skill-item"><FontAwesomeIcon icon={faJava} /> Java</div>
-      <div className="skill-item"><FontAwesomeIcon icon={faComments} /> Communication</div>
-      <div className="skill-item"><FontAwesomeIcon icon={faUserTie} /> Leadership</div>
-      <div className="skill-item"><FontAwesomeIcon icon={faClock} /> Time Management</div>
-    </div>
-  </div>
-</div>
-
-</section>
-
+          <div className="about-right">
+            <div className="skill-list">
+              <h3>Skills</h3>
+              <div className="skill-grid">
+                <div className="skill-item"><FontAwesomeIcon icon={faHtml5} /> HTML</div>
+                <div className="skill-item"><FontAwesomeIcon icon={faCss3Alt} /> CSS</div>
+                <div className="skill-item"><FontAwesomeIcon icon={faJs} /> JavaScript</div>
+                <div className="skill-item"><FontAwesomeIcon icon={faBootstrap} /> Bootstrap</div>
+                <div className="skill-item"><FontAwesomeIcon icon={faReact} /> React</div>
+                <div className="skill-item"><FontAwesomeIcon icon={faNodeJs} /> Node.js</div>
+                <div className="skill-item"><FontAwesomeIcon icon={faJs} /> Express.js</div>
+                <div className="skill-item"><FontAwesomeIcon icon={faDatabase} /> MongoDB</div>
+                <div className="skill-item"><FontAwesomeIcon icon={faGitAlt} /> Git</div>
+                <div className="skill-item"><FontAwesomeIcon icon={faGithub} /> GitHub</div>
+                <div className="skill-item"><FontAwesomeIcon icon={faCloud} /> Render</div>
+                <div className="skill-item"><FontAwesomeIcon icon={faServer} /> Vercel</div>
+                <div className="skill-item"><FontAwesomeIcon icon={faPhp} /> PHP</div>
+                <div className="skill-item"><FontAwesomeIcon icon={faDatabase} /> MySQL</div>
+                <div className="skill-item"><FontAwesomeIcon icon={faPython} /> Python</div>
+                <div className="skill-item"><FontAwesomeIcon icon={faJava} /> Java</div>
+                <div className="skill-item"><FontAwesomeIcon icon={faComments} /> Communication</div>
+                <div className="skill-item"><FontAwesomeIcon icon={faUserTie} /> Leadership</div>
+                <div className="skill-item"><FontAwesomeIcon icon={faClock} /> Time Management</div>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
 
       <footer>
