@@ -38,9 +38,9 @@ To obtain a challenging position in a reputable organization where I can enhance
 
     <h3>Education Details</h3><br />
     <ul>
-      <li><strong>SSLC</strong><br />VIKAASA SCHOOL AMBASAMUDRAM - 73.7%</li><br />
-      <li><strong>HSC</strong><br />CAMBRIDGE MHS - AGASTHIYARPATTI - 86.7%</li><br />
       <li><strong>B.E. Computer Science</strong><br />University College of Engineering Nagercoil<br />Currently in 6th semester, CGPA: 8.33</li>
+      <li><strong>HSC</strong><br />CAMBRIDGE MHS - AGASTHIYARPATTI - 86.7%</li><br />
+      <li><strong>SSLC</strong><br />VIKAASA SCHOOL AMBASAMUDRAM - 73.7%</li><br />
     </ul>
   </div>
 
